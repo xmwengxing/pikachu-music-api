@@ -1,0 +1,15 @@
+# 本地登录态 / cookies（绝对不能推到公网）
+cookies.json
+
+# 大二进制文件（33MB+ Android binary、Mac/Windows 可执行）
+go-music-api-arm64-android
+go-music-api-*
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Fly / 构建产物
+.fly/
+*.log
+.DS_Store
